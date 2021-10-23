@@ -2197,17 +2197,29 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
+		
+		.image.badge {
+			border-radius: 100%;
+			overflow: hidden;
+		}
+
+			.image.badge img {
+				border-radius: 100%;
+				display: block;
+				width: 10%;
+				float: left;
+			}
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 22em;
 			border-radius: 0;
 		}
 
 			.image.main img {
 				border-radius: 0;
 			}
-
+		
 /* List */
 
 	ol {
