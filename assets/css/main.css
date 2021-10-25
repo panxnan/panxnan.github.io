@@ -2198,7 +2198,7 @@ input, select, textarea {
 				width: 100%;
 			}
 		
-		.image.badge {
+			.image.badge {
 			border-radius: 100%;
 			overflow: hidden;
 		}
@@ -2397,7 +2397,7 @@ input, select, textarea {
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			width: 100%;
 		}
 
 			ul.feature-icons li:before {
@@ -2678,24 +2678,51 @@ input, select, textarea {
 		.features article .image {
 			display: inline-block;
 			padding-right: 2.5em;
-			vertical-align: middle;
-			width: 48%;
-		}
+			padding-top: 0.35em ;
+			vertical-align: top;
+			width: 15%;
+		} 
 
 			.features article .image img {
 				display: block;
 				width: 100%;
+				border-radius: 5%;
 			}
 
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
+			width: 83%;
+		}
+
+		.features article .inner > :last-child {
+			margin-bottom: 0;
+		}
+
+		/* my things */
+		.features article .badge {
+			display: inline-block;
+			padding-right: 4em;
+			vertical-align: middle;
+			width: 48%;
+		}
+			.features article .badge img {
+				display: block;
+				width: 100%;
+			}
+		
+		.features article .description {
+			display: inline-block;
+			vertical-align: middle;
+			padding-left: 2em;
 			width: 50%;
 		}
 
-			.features article .inner > :last-child {
-				margin-bottom: 0;
-			}
+		.features article .description > :last-child {
+			margin-bottom: 0;
+		}
+
+
 
 /* Header */
 
